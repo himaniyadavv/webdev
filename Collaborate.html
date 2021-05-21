@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Collaborate | Mentorbox</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+       
+
+        header {
+            background-color: #72bed8;
+            height: 90px;
+
+
+        }
+
+        #face {
+            width: 65px;
+            height: 55px;
+            margin-right: 5px;
+            position: relative;
+            left: 290px;
+            top: 7px;
+        }
+
+        .main1 {
+            background-color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 9px;
+            outline: none;
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: #72bed8;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .main1:hover {
+            background-color: blueviolet;
+            color: white;
+        }
+
+        #span1 {
+
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-left: 300px;
+            position: relative;
+            bottom: 15px;
+            text-decoration: none;
+            color: black;
+
+
+        }
+
+        #span3:hover {
+            color: black;
+        }
+
+        #span4:hover {
+            color: black;
+        }
+
+        #span5:hover {
+            color: black;
+        }
+
+        #span6:hover {
+            color: black;
+        }
+
+        #span2 {
+            color: white;
+            margin-right: 24px;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+            position: relative;
+
+            bottom: 15px;
+
+
+
+
+        }
+
+        #span2:hover {
+            color: black;
+        }
+
+        #span3 {
+
+
+            text-decoration: none;
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        #span4 {
+
+
+            text-decoration: none;
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        #span5 {
+
+
+            text-decoration: none;
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        #span6 {
+
+
+            text-decoration: none;
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        img {
+
+            width: 100%;
+
+        }
+
+        footer {
+            background-color: #72bed8;
+            height: 215px;
+        
+        }
+
+
+        #foo {
+
+            position: relative;
+            top: 16px;
+            color: white;
+            font-size: 22px;
+            background-color: #0066cc;
+            padding-left: 270px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family: calibri;
+            font-weight: bold;
+
+        }
+
+        #logo {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 230px;
+            top: 20px;
+            padding: 5px;
+
+        }
+
+        h {
+
+            position: relative;
+            left: 270px;
+            bottom: 70px;
+            font-size: 20px;
+            font-family: arial;
+            font-weight: bold;
+            color: white;
+            font-size: 30px;
+
+
+        }
+
+        #us {
+            position: relative;
+            top: 20px;
+            left: 280px;
+            color: white;
+            font-size: 16px;
+            font-family: sans-serif;
+
+
+        }
+
+        #link {
+            position: relative;
+            top: 52px;
+            right: -59px;
+            text-decoration: none;
+            background-color: rgb(252, 255, 231);
+            color: blueviolet;
+            padding: 6px 5px;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: sans-serif;
+
+        }
+
+        #email {
+            position: relative;
+            left: 280px;
+            top: 60px;
+            color: white;
+            font-size: 17px;
+            font-family: sans-serif;
+        }
+
+
+        #about {
+
+
+            cursor: pointer;
+            margin-right: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+
+        #contact {
+
+            cursor: pointer;
+            margin-right: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+
+        }
+
+
+        #payment {
+
+            cursor: pointer;
+            margin-right: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+
+        #website {
+
+            cursor: pointer;
+            margin-right: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+
+        #privacy {
+
+            cursor: pointer;
+            margin-right: 22px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        #footer1 {
+            position: relative;
+            left: 450px;
+            bottom: 25px;
+        }
+
+        #S_image {
+            width: 460px;
+            height: 260px;
+            float: right;
+            position: relative;
+            right: 330px;
+            top: 70px;
+
+
+        }
+
+        .one {
+            margin-left: 260px;
+
+        }
+
+        h1,
+        h2 {
+            font-family: Comic Sans MS;
+        }
+
+        .one p {
+            font-size: 20px;
+            font-family: arial;
+        }
+
+
+        #image_id1 {
+            width: 450px;
+            height: 260px;
+            float: left;
+            position: relative;
+            left: 250px;
+            top: 90px;
+
+
+
+        }
+
+        #image_id2 {
+            width: 460px;
+            height: 260px;
+            float: right;
+            position: relative;
+            right: 330px;
+            top: 160px;
+
+        }
+
+        .two p {
+            font-size: 20px;
+            font-family: arial;
+            margin-left: 20px;
+
+        }
+
+        .two {
+            position: relative;
+            top: 80px;
+            left: 270px;
+        }
+
+        .three {
+            position: relative;
+            top: 140px;
+            margin-left: 260px;
+            font-family: arial;
+            font-size: 20px;
+
+        }
+
+      
+
+        #button {
+
+            padding: 12px 30px;
+            text-decoration: none;
+            color: white;
+            background-color: rgb(61, 58, 58);
+            border: solid 1px;
+            font-size: 17px;
+            font-family: Arial Nova;
+            letter-spacing: 0.6px;
+            position: relative;
+            left: 380px;
+            top: 60px;
+
+
+        }
+
+        #button:hover {
+
+            background-color: peachpuff;
+        }
+
+        #image_id4 {
+            width: 300px;
+            height: 230px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .four {
+            position: relative;
+            top: 230px;
+        }
+
+        .recent {
+            background-color: rgb(228, 228, 228);
+            width: 770px;
+            line-height: 1.4;
+            border-radius: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 20px;
+            font-family: Arial;
+            padding: 20px;
+
+        }
+
+
+        #Recent {
+            text-align: center;
+
+            font-size: 35px;
+            font-family: Comic Sans MS;
+            font-weight: bold;
+
+        }
+
+        .recent h2 {
+            font-size: 27px;
+            text-align: center;
+            font-family: Franklin Gothic Medium;
+            position: relative;
+            bottom: 20px;
+            font-weight: bold;
+        }
+
+        #image_id5 {
+            width: 300px;
+            height: 230px;
+            float: left;
+            margin-right: 20px;
+            margin-top: 30px;
+        }
+
+        .five {
+            background-color: rgb(228, 228, 228);
+            width: 770px;
+            line-height: 1.3;
+            border-radius: 30px;
+            font-family: Arial;
+            font-size: 20px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 300px;
+
+
+        }
+
+        .six {
+            background-color: rgb(228, 228, 228);
+            width: 770px;
+            padding: 17px;
+            font-size: 20px;
+            line-height: 1.3;
+            border-radius: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 60px;
+            font-family: arial;
+        }
+
+        #image_id6 {
+            width: 240px;
+            height: 250px;
+            float: left;
+            margin-right: 20px;
+            margin-top: 30px;
+        }
+
+        h3 {
+            font-size: 24px;
+            text-align: center;
+            font-family: Franklin Gothic Medium;
+            position: relative;
+            bottom: 20px;
+            font-weight: bold;
+        }
+
+        #youtube_but {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            border: solid 1px;
+            font-weight: bold;
+            font-family: Futara;
+            font-size: 17px;
+            position: relative;
+            left: 470px;
+
+        }
+
+        #youtube_but:hover {
+            color: white;
+            background-color: black;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 37px;
+            font-family: Big Caslon;
+            font-weight: lighter;
+        }
+
+     
+
+        #jpg {
+            width: 120px;
+            height: 120px;
+            border-radius: 60%;
+        }
+
+        hr {
+            position: relative;
+            bottom: 30px;
+            height: 1px;
+        }
+
+        .ds {
+            position: relative;
+            left: 300px;
+
+        }
+        .ds1{
+            position: relative;
+            left: 500px;
+            bottom:210px;
+        }
+        .ds2{
+            position: relative;
+            left: 690px;
+            bottom:419px;
+
+        }
+        .ds3{
+            position: relative;
+            left: 880px;
+            bottom:615px;
+
+        }
+        .ds4{
+            position: relative;
+            left: 1085px;
+            bottom:825px;
+
+        }
+        .sevenn{
+            height: 300px;
+        }
+ 
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+
+        <img id="face" src="https://tse4.mm.bing.net/th?id=OIP.-CKI96pe0GWvqWFAgi0xygAAAA&pid=Api&P=0&w=300&h=300">
+        <a id="span1" href="mentor.html">Home
+            <a id="span2" href="about.html">About
+                <a id="span3" href="plan.html">Plans
+                    <a id="span4" href="blog.html">Blog
+                        <a id="span5" href="FAQ.html">FAQ
+                            <a id="span6" href="Contact_us.html">Contact us
+                                <a class="main1" href="Become_a_mentor.html">Become a Mentor</a>
+
+    </header>
+
+    <main>
+        <img id="img"
+            src="https://static.wixstatic.com/media/856ce06bfd3f4f0e9085e6f4a9502073.jpg/v1/fill/w_1889,h_243,al_c,q_85,usm_0.66_1.00_0.01/856ce06bfd3f4f0e9085e6f4a9502073.webp">
+        <div class="block">
+
+            <h>Collaborations </h>
+
+        </div>
+
+        <div>
+
+            <img id="S_image"
+                src="https://static.wixstatic.com/media/nsplsh_4a794a774f304b3566574d~mv2_d_5184_3061_s_4_2.jpg/v1/fill/w_569,h_336,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20NEXT%20Academy.webp">
+            <div class="one">
+                <h1>Why Collaborate?</h1>
+                <h2>Get Students Mentored</h2>
+                <p>Your students can get the benefit of getting<br> mentored by our expert mentors. The
+                    collaboration<br> of your
+                    institute with Mentorbox gives them <br>an opportunity to learn and grow with Mentorbox.<br><br> At
+                    present there
+                    are not many platforms which<br> provide quality mentorship to school and college<br> students,
+                    Mentorbox is
+                    among the very first<br> platforms to do so.</p>
+            </div>
+
+        </div>
+        <div>
+
+            <img id="image_id1"
+                src="https://static.wixstatic.com/media/nsplsh_6b5f54395a6a335345386b~mv2_d_4430_2953_s_4_2.jpg/v1/fill/w_569,h_379,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_6b5f54395a6a335345386b~mv2_d_4430_2953_s_4_2.webp">
+            <div class="two">
+                <h2>Webinars</h2>
+                <p>Students will get access to educational and <br>insightful webinars which are conducted weekly by<br>
+                    Mentorbox. Our mentors also conduct mentorship<br> webinars for students who need career guidance
+                    in<br> a
+                    particular career field.<br><br>
+
+                    They will also learn about various soft-skills needed<br> to survive in an industry and
+                    personality<br>
+                    development needed to grow as a person.</p>
+            </div>
+
+        </div>
+
+
+        <div>
+            <img id="image_id2"
+                src="https://static.wixstatic.com/media/11062b_affad36e3187404f8a2dbe0ea8796676~mv2_d_4000_2158_s_2.jpg/v1/fill/w_639,h_345,al_c,q_80,usm_0.66_1.00_0.01/11062b_affad36e3187404f8a2dbe0ea8796676~mv2_d_4000_2158_s_2.webp">
+            <div class="three">
+                <h2>Skills</h2>
+                <p>At present, schools do not have a solid curriculum <br>for enhancement of soft skills. Mentorbox
+                    has<br>
+                    created a curriculum with the help of world-<br>renowned trainers to make students learn those
+                    <br>skills in
+                    order to outshine others in their career.<br><br>
+                    Schools can collaborate with us to make their<br> students learn and to create a strong foundation
+                    for<br>
+                    their future.
+                </p>
+
+                <a id="button" href="get_in-touch.html" target="_blank"> Get In Touch</a>
+            </div>
+        </div>
+
+
+        <div class="four">
+            <p id="Recent">Recent Collaborations</p>
+            <div class="recent">
+
+                <h2>
+                    A Google Incubated Finance Company</h2>
+                <img id="image_id4"
+                    src="https://static.wixstatic.com/media/9c4cf3368907463db046286699994311.jpg/v1/fill/w_376,h_285,al_c,q_80,usm_0.66_1.00_0.01/9c4cf3368907463db046286699994311.webp">
+
+
+                <p>Mentorbox collaborates with a Google Incubated <br>Finance Company to conduct soft skills<br>
+                    development
+                    and mentorship sessions for 7 lakh<br> plus students across the country. ​<br>
+
+                    The company helps to pay the entire year fees<br> upfront to the School in one installment.​<br>
+
+                    This collaboration with Mentorbox will increase<br> the reach of quality mentorship to more
+                    and more<br>
+                    students. </p>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="five">
+            <h3>
+                IIT GUWAHATI's annual Techno-Management festival</h3>
+            <img id="image_id5"
+                src="https://static.wixstatic.com/media/fa3b9c_1a46d8314147463fab0529a0b7083a44~mv2.jpeg/v1/fill/w_378,h_285,al_c,q_80,usm_0.66_1.00_0.01/WhatsApp%20Image%202020-09-09%20at%2010_01_55%20PM.webp">
+
+            <p>Techniche is the annual Techno-Management<br> festival of Indian Institute of Technology<br> (IIT),
+                Guwahati.<br><br>
+                Mentorbox conducted a speed mentoring session <br>in partnership with Techniche to mentor
+                students<br>
+                and
+                provide our quality mentorship to students<br> from one of the best Institutes in India. The
+                event<br>
+                was held
+                on 19th September, 2020. This event <br>turned out to be a major career boost to many<br> students.
+            </p>
+
+            <a id="youtube_but" href="https://www.youtube.com/watch?v=oJHbDDcO-Qw">Watch here</a>
+
+
+        </div>
+
+        <div class="six">
+            <h3>MENTORBOX collaborates with Bollywood DESIGNER Manish Tripathi FOR live project INITIATIVE for NIFT
+                students</h3>
+            <img id="image_id6"
+                src="https://static.wixstatic.com/media/fa3b9c_8826142e76b741d6a88c2417c94e91af~mv2.jpeg/v1/fill/w_188,h_266,al_c,q_80,usm_0.66_1.00_0.01/Webinar.webp">
+
+            <p>Renowned Bollywood Designer Manish Tripathi<br> initiated a program to bring products from rural<br>
+                India to
+                urban India and thus promote the<br> creativity hidden in rural people. The name of<br> the
+                initiative is
+                "Sheher-se-Gaon-tak".<br><br>
+
+                ​
+
+                Manish Tripathi previously decided to collaborate<br> with Mentorbox and selected some of<br> the
+                students from
+                National Institute of Fashion<br> Technology associated with our community<br>
+
+                to create innovative products inspired from rural designs.</p>
+
+
+        </div>
+
+        <div class="sevenn">
+            <h4>Other Partnerships</h4>
+            <hr color="black" width="30">
+            <div class="ds">
+                <a href="https://devsoc.club/">
+                    <img id="jpg" src="https://devsoc.club/assets/img/logo.png"></a>
+                <p>Skill Partner <br>
+                    Developer Society,<br>
+                    BITS, Goa</p>
+            </div>
+            <div class="ds1">
+                <a href="https://www.facebook.com/Quizofficial.manit/">
+                    <img id="jpg"
+                        src="https://static.wixstatic.com/media/fa3b9c_160a38fa84584f809658fb6a926928f4~mv2.png/v1/fill/w_153,h_153,al_c,q_85,usm_0.66_1.00_0.01/Screenshot_17.webp"></a>
+                <p>Mentorship Partner <br>
+                    ABHIGYAN'20,<br>
+                    MANIT, Bhopal</p>
+            </div>
+
+            <div class="ds2">
+                <a href="https://mdi.ac.in/students-life/illumina.html">
+                    <img id="jpg"
+                        src="https://static.wixstatic.com/media/fa3b9c_0ff784481efd4153bade89c0ca0411c7~mv2.png/v1/fill/w_155,h_153,al_c,q_85,usm_0.66_1.00_0.01/Screenshot_19.webp"></a>
+                <p>ILLUMINA,<br>
+                    MDI Gurgaon</p>
+            </div>
+            <div class="ds3">
+                <a href="https://kjsce-abhiyantriki.org/">
+                    <img id="jpg"
+                        src="https://scontent.fdel10-1.fna.fbcdn.net/v/t1.0-1/p720x720/121890596_1503139999872426_8155492841607590527_n.png?_nc_cat=107&ccb=3&_nc_sid=dbb9e7&_nc_ohc=0anaSpa-qVoAX9cp9iY&_nc_ht=scontent.fdel10-1.fna&_nc_tp=30&oh=95e49173b9206a5a6d572dfbbfeaf929&oe=60614333"></a>
+                <p>For internship Expo <br>
+                    Abhiyantriki'20<br>
+                    KJSCE, Mumbai</p>
+            </div>
+            <div class="ds4">
+                <a href="https://dare2compete.com/o/iotify-kalpana-tech-week-pes-university-pesu-bengaluru-133700">
+                    <img id="jpg"
+                        src="https://static.wixstatic.com/media/fa3b9c_cac6b83e99d2498ba3fd7bf8dff562c7~mv2.png/v1/fill/w_153,h_155,al_c,q_85,usm_0.66_1.00_0.01/Screenshot_21.webp"></a>
+                <p>E-Learning Partner <br>
+                    Kalpana Tech Week,<br>
+                    IEEE PES, Bangalore</p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+
+
+
+        <p id="us">Follow us on</p>
+        <a href="https://www.quora.com/q/mentorboxindia" target="_blank">
+            <img id="logo"
+                src="https://static.wixstatic.com/media/203317_7534420d810744c0bcfbac6d933f85e1~mv2.png/v1/fill/w_44,h_44,al_c,q_85,usm_0.66_1.00_0.01/203317_7534420d810744c0bcfbac6d933f85e1~mv2.webp">
+        </a>
+        <a href="https://www.facebook.com/boxmentor/" target="_blank">
+            <img id="logo"
+                src="https://tse1.mm.bing.net/th?id=OIP.K61w8tCEKaKN--vUwjeSSwHaHa&pid=Api&P=0&w=300&h=300"></a>
+
+        <a href="https://www.twitter.com/IndiaMentorbox?s=09" target="https://www.twitter.com/IndiaMentorbox?s=09">
+            <img id="logo"
+                src="https://static.wixstatic.com/media/9c4b521dd2404cd5a05ed6115f3a0dc8.png/v1/fill/w_44,h_44,al_c,q_85,usm_0.66_1.00_0.01/9c4b521dd2404cd5a05ed6115f3a0dc8.webp"></a>
+
+        <a href="https://www.youtube.com/channel/UCmxhM-k7uKenebm3gE0I3fA"
+            target="https://www.youtube.com/channel/UCmxhM-k7uKenebm3gE0I3fA">
+            <img id="logo"
+                src="https://static.wixstatic.com/media/a1b09fe8b7f04378a9fe076748ad4a6a.png/v1/fill/w_44,h_44,al_c,q_85,usm_0.66_1.00_0.01/a1b09fe8b7f04378a9fe076748ad4a6a.webp"></a>
+
+        <a href="https://www.instagram.com/mentorbox.in/?igshid=1bcyc392o2p2g"
+            target="https://www.instagram.com/mentorbox.in/?igshid=1bcyc392o2p2g">
+            <img id="logo"
+                src="https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_44,h_44,al_c,q_85,usm_0.66_1.00_0.01/8d6893330740455c96d218258a458aa4.webp"></a>
+
+        <a id="link" href="https://www.linkedin.com/company/mentorbox-in" target="_blank">FOLLOW US ON
+            LINKEDIN</a><br>
+        <a id="email" href="mailto:anapurna@mentorbox.in" target="mailto:anapurna@mentorbox.in">Email us</a>
+
+        <div id="footer1">
+            <a id="about" href="about.html">About us
+                <a id="contact" href="Contact_us.html">Contact us
+                    <a id="payment" href="Payment.html">Payment Terms and
+                        Conditions
+                        <a id="website" href="Payment.html">Website Terms and
+                            Conditions
+                            <a id="privacy" href="Privacy.html">Privacy policy
+                            </a>
+        </div>
+
+
+
+        <p id="foo">@MentorBox India
+        </p>
+
+    </footer>

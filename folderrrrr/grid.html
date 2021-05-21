@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+        
+            text-align:center;
+            font-size:48px;
+        }
+
+        .movie-poster{
+            width:100%;
+            max-width:400px;
+            
+        }
+
+        #grid-container{
+            display: grid;
+            grid-template-columns: auto auto
+            auto auto auto;
+            grid-gap:16px;
+            
+        }
+        .movie-poster:hover{
+            animation:zoom 2s ease-in;
+        }
+
+        @keyframes zoom{
+            0%{
+                transform: scale(1);
+                
+            }
+            100%{
+                transform:scale(1.2);
+            }
+
+        }
+
+
+        @media(max-width:900px){
+            #grid-container{
+                grid-template-columns: auto auto auto;
+            }
+        }
+
+        @media(max-width:500px){
+            #grid-container{
+                grid-template-columns: auto auto ;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Movies</h1>
+    <div id="grid-container">
+        <div>
+            <img class="movie-poster" src="https://tse1.mm.bing.net/th?id=OIP._273Fgw-wwVO-CuArxg9aAHaLH&pid=Api&P=0&w=300&h=300">
+        </div>
+        <div>
+            <img class="movie-poster" src="https://tse1.mm.bing.net/th?id=OIP.mobVGQF-hdz4hplYmBnbFAHaJ1&pid=Api&P=0&w=300&h=300">
+        </div>
+        <div>
+            <img class="movie-poster" src="https://tse2.mm.bing.net/th?id=OIP.JsgfkO6jMBH6jEtNmW1m-gHaLH&pid=Api&P=0&w=300&h=300">
+        </div>
+        <div>
+            <img class="movie-poster" src="https://tse4.mm.bing.net/th?id=OIP.UHlSxeUK0vXYzRnN2n_aUgHaK9&pid=Api&P=0&w=300&h=300">
+        </div>
+        <div>
+            <img class="movie-poster" src="https://tse2.mm.bing.net/th?id=OIP.gF--XR-CwFzNmC-zfsJD1QHaKu&pid=Api&P=0&w=300&h=300">
+        </div>
+        <div>
+            <img class="movie-poster" src="https://tse2.mm.bing.net/th?id=OIP.awpvtr_0bi32STbrtPTrXgHaK8&pid=Api&P=0&w=300&h=300">
+        </div>
+        <div>
+            <img class="movie-poster" src="https://tse2.mm.bing.net/th?id=OIP.D2Lmol9n2123PFTN1nCyuAHaK-&pid=Api&P=0&w=300&h=300">
+        </div>
+        <div>
+            <img class="movie-poster" src="https://tse1.mm.bing.net/th?id=OIP.nwe8gxIiGAGoCvgYmv7ebQHaKj&pid=Api&P=0&w=300&h=300">
+        </div>
+        <div>
+            <img class="movie-poster" src="https://tse1.mm.bing.net/th?id=OIP.SzMWBpf7CHmBd-R2hEGZPgHaK0&pid=Api&P=0&w=300&h=300">
+        </div>
+        <div>
+            <img class="movie-poster" src="https://tse3.mm.bing.net/th?id=OIP.sU0WRzM9OX5kSOquxxSksQHaLI&pid=Api&P=0&w=300&h=300">
+        </div>
+    </div>
+    
+</body>
+</html>

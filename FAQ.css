@@ -1,0 +1,403 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+header {
+    background-color: #72bed8;
+    height: 90px;
+ 
+
+}
+
+#face {
+    width: 65px;
+    height: 55px;
+    margin-right: 5px;
+    position: relative;
+    left: 290px;
+    top: 7px;
+}
+
+
+
+.main1 {
+    background-color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 9px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    color: #72bed8;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.main1:hover {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+}
+
+#span1 {
+
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 300px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+#span3:hover {
+    color: black;
+}
+
+#span4:hover {
+    color: black;
+}
+
+#span5:hover {
+    color: black;
+}
+
+#span6:hover {
+    color: black;
+}
+
+#span2 {
+    color: white;
+    margin-right: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+#span2:hover {
+    color: black;
+}
+
+#span3 {
+
+
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#span4 {
+
+
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#span5 {
+
+
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#span6 {
+
+
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+img {
+
+    width: 100%;
+
+}
+
+footer {
+    background-color: #72bed8;
+    height: 215px;
+    
+}
+
+
+#foo {
+
+    position: relative;
+    top: 31px;
+    color: white;
+    font-size: 22px;
+    background-color: #0066cc;
+    padding-left: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: calibri;
+    font-weight: bold;
+
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 230px;
+    top: 20px;
+    padding: 5px;
+
+}
+
+h {
+
+    position: absolute;
+    top: 100px;
+    left: 270px;
+    font-size: 20px;
+    font-family: "calibri";
+    font-weight: 800;
+    color: white;
+    font-size: 35px;
+
+
+}
+
+#us {
+    position: relative;
+    top: 20px;
+    left: 280px;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+
+
+}
+
+#link {
+    position: relative;
+    top: 65px;
+    right: -60px;
+    text-decoration: none;
+    background-color: rgb(252, 255, 231);
+    color: blueviolet;
+    padding: 6px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+#email {
+    position: relative;
+    left: 280px;
+    top: 60px;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+
+#about {
+
+
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+#contact {
+
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+
+#payment {
+
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+#website {
+
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+#privacy {
+
+    cursor: pointer;
+    margin-right: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#footer1 {
+    position: relative;
+    left: 450px;
+    bottom: 25px;
+}
+
+.container {
+    width: 100%;
+    max-width: 850px;
+    height: 560px;
+    background-color: rgb(196, 232, 250);
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: rgb(49, 99, 186);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.4;
+
+}
+
+#heading {
+    position: relative;
+    bottom: 130px;
+    left: 300px;
+    font-size: 20px;
+    color: white;
+    line-height: 1.4;
+    font-weight: bold;
+
+}
+
+.panel-title {
+    color: rgb(41, 41, 83);
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+
+#btn:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e082";
+    float: right;
+}
+
+#btn.collapsed:after {
+    content: "\e081";
+
+}
+
+#btn:hover {
+    text-decoration: none;
+}
+
+#btn {
+    text-decoration: none;
+}
+
+@media(max-width:700px){
+    .container {
+        width: 500px;
+
+
+     
+    }
+}
+
+@media(max-width:400px){
+    .container {
+        width: 600px;
+    
+        
+   
+
+     
+    }
+}

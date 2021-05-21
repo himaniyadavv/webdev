@@ -1,0 +1,419 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+
+header {
+    background-color: #72bed8;
+    height: 90px;
+
+
+}
+
+#face {
+    width: 65px;
+    height: 55px;
+    margin-right: 5px;
+    position: relative;
+    left: 290px;
+    top: 7px;
+}
+
+.main1 {
+    background-color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 9px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: #72bed8;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.main1:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+#span1 {
+
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 300px;
+    position: relative;
+    bottom: 15px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+#span2 {
+    color: white;
+    margin-right: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+}
+
+#span2:hover {
+    color: black;
+}
+
+#span3:hover {
+    color: black;
+}
+
+#span4:hover {
+    color: black;
+}
+
+#span5:hover {
+    color: black;
+}
+
+#span6:hover {
+    color: black;
+}
+
+#span3 {
+
+
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#span4 {
+
+
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#span5 {
+
+
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#span6 {
+
+
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+img {
+
+    width: 100%;
+ 
+    height: 170px;
+}
+
+footer {
+    background-color: #72bed8;
+    height: 215px;
+}
+
+
+#foo {
+
+    position: relative;
+    top: 16px;
+    color: white;
+    font-size: 22px;
+    background-color: #0066cc;
+    padding-left: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    ;
+
+
+    font-family: calibri;
+    font-weight: bold;
+
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 230px;
+    top: 20px;
+    padding: 5px;
+
+}
+
+h {
+
+    position: relative;
+    bottom: 70px;
+    left: 270px;
+    font-size: 20px;
+    font-family: "calibri";
+    font-weight: 800;
+    color: white;
+    font-size: 35px;
+
+
+}
+
+#us {
+    position: relative;
+    top: 20px;
+    left: 280px;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+
+
+}
+
+#link {
+    position: relative;
+    top: 52px;
+    right: -59px;
+    text-decoration: none;
+    background-color: rgb(252, 255, 231);
+    color: blueviolet;
+    padding: 6px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+
+#email {
+    position: relative;
+    left: 280px;
+    top: 60px;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+
+#about {
+
+
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+#contact {
+
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+
+#payment {
+
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+#website {
+
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+#privacy {
+
+    cursor: pointer;
+    margin-right: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#footer1 {
+    position: relative;
+    left: 450px;
+    bottom: 25px;
+}
+
+main {
+    height: 780px;
+}
+
+#main1 {
+    width: 280px;
+    height: 510px;
+    position: relative;
+    left: 310px;
+    top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #72bed8;
+    border-width: 3px;
+    box-shadow: 0 5px 15px 0 black;
+}
+
+#main2 {
+
+    width: 280px;
+    height: 510px;
+    position: relative;
+    left: 630px;
+    bottom: 485px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #72bed8;
+    border-width: 3px;
+    box-shadow: 0 5px 15px 0 black;
+
+
+}
+
+#main3 {
+
+    width: 280px;
+    height: 510px;
+    position: relative;
+    left: 950px;
+    bottom: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #72bed8;
+    border-width: 3px;
+    box-shadow: 0 5px 15px 0 black;
+
+}
+
+h1 {
+    font-size: 25px;
+    color: rgba(7, 48, 93, 0.9);
+
+}
+
+button {
+    width: 120px;
+    height: 38px;
+    border-radius: 30px 30px;
+    border: none;
+    font-weight: 550;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(7, 48, 93, 0.9);
+    
+
+}
+
+button:hover {
+    background-color: rgb(120, 16, 16);
+}
+
+#button {
+    margin-top: 16px;
+}
+
+#but {
+    text-decoration: none;
+    color: white;
+}
+
+#but1 {
+    text-decoration: none;
+    color: white;
+}
+
+#but2 {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Become A Mentor | Mentorbox</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        header {
+            background-color: #72bed8;
+            height: 90px;
+
+
+        }
+
+        #face {
+            width: 65px;
+            height: 55px;
+            margin-right: 5px;
+            position: relative;
+            left: 290px;
+            top: 7px;
+        }
+
+        .main1 {
+            background-color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 9px;
+            outline: none;
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            top: 10px;
+            color: #72bed8;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .main1:hover {
+            background-color: blueviolet;
+            color: white;
+            text-decoration: none;
+        }
+
+        #span1 {
+
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-left: 300px;
+            position: relative;
+            top: 10px;
+            text-decoration: none;
+            color: black;
+
+
+        }
+
+        #span3:hover {
+            color: black;
+        }
+
+        #span4:hover {
+            color: black;
+        }
+
+        #span5:hover {
+            color: black;
+        }
+
+        #span6:hover {
+            color: black;
+        }
+
+        #span2 {
+            color: white;
+            margin-right: 24px;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+            position: relative;
+            top: 10px;
+        }
+
+        #span2:hover {
+            color: black;
+        }
+
+        #span3 {
+
+
+            text-decoration: none;
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            top: 10px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        #span4 {
+
+
+            text-decoration: none;
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            top: 10px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        #span5 {
+
+
+            text-decoration: none;
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            top: 10px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        #span6 {
+
+
+            text-decoration: none;
+            cursor: pointer;
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            top: 10px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        img {
+
+            width: 100%;
+
+        }
+
+        footer {
+            background-color: #72bed8;
+            height: 215px;
+        }
+
+
+        #foo {
+
+            position: relative;
+            top: 31px;
+            color: white;
+            font-size: 22px;
+            background-color: #0066cc;
+            padding-left: 270px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family: calibri;
+            font-weight: bold;
+
+        }
+
+        #logo {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            left: 230px;
+            top: 20px;
+            padding: 5px;
+
+        }
+
+        h {
+
+            position: absolute;
+            top: 100px;
+            left: 270px;
+            font-size: 20px;
+            font-family: "calibri";
+            font-weight: 800;
+            color: white;
+            font-size: 35px;
+
+
+        }
+
+        #us {
+            position: relative;
+            top: 20px;
+            left: 280px;
+            color: white;
+            font-size: 16px;
+            font-family: sans-serif;
+
+
+        }
+
+        #link {
+            position: relative;
+            top: 65px;
+            right: -60px;
+            text-decoration: none;
+            background-color: rgb(252, 255, 231);
+            color: blueviolet;
+            padding: 6px 5px;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: sans-serif;
+
+        }
+
+        #email {
+            position: relative;
+            left: 280px;
+            top: 60px;
+            color: white;
+            font-size: 17px;
+            font-family: sans-serif;
+            text-decoration: underline;
+        }
+
+
+        #about {
+
+
+            cursor: pointer;
+            margin-right: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+
+        #contact {
+
+            cursor: pointer;
+            margin-right: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            text-decoration: underline;
+
+        }
+
+
+        #payment {
+
+            cursor: pointer;
+            margin-right: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+
+        #website {
+
+            cursor: pointer;
+            margin-right: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+
+        #privacy {
+
+            cursor: pointer;
+            margin-right: 22px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        #footer1 {
+            position: relative;
+            left: 450px;
+            bottom: 25px;
+        }
+
+        .container {
+            width: 550px;
+            height: 370px;
+            background-color: #e6e6e6;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        #carousel {
+            height: 370px;
+            background-color: #e6e6e6;
+        }
+
+        .carousel-caption {
+            color: black;
+            position: relative;
+            right: 40px;
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        .carousel-indicators {
+            position: relative;
+            top: 340px;
+            color: black;
+        }
+
+        #frst-image {
+            border-radius: 50px;
+            position: relative;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+        }
+        #image {
+      height: 240px;
+      width: 420px;
+      position: relative;
+      left: 610px;
+      bottom: 240px;
+    }
+
+    #main {
+      font-size: 20px;
+      font-family: calibri;
+      position: relative;
+      left: 300px;
+      top: 40px;
+    }
+
+    #main p {
+      line-height: 1.3;
+
+    }
+
+    #button {
+
+      position: relative;
+      left: 350px;
+      bottom:20px;
+      padding: 12px 15px;
+      text-decoration: none;
+      color: white;
+      background-color: black;
+      letter-spacing: 2px;
+      border: solid 1px;
+      font-family: sans-serif;
+      font-size: 14px;
+
+    }
+
+    #button:hover {
+      color: black;
+      background-color: white;
+    }
+
+    .size {
+      height: 200px;
+      width: 200px;
+    }
+
+    .image1 {
+      height: 208px;
+      width: 230px;
+      border-radius: 8px;
+    }
+
+    .heading {
+      text-align: center;
+      font-size: 40px;
+      font-weight: bolder;
+      color: white;
+      font-family: calibri;
+      padding-top: 20px;
+    }
+
+    #section_part {
+      background-color: #72bed8;
+      height: 1050px;
+    }
+
+    .new {
+      position: relative;
+      top: 28px;
+      left: 305px;
+      width: 270px;
+      height: 390px;
+      padding: 20px;
+      background-color: #72bed8;
+      text-align: center;
+      border-style: none;
+      border-width: 3px;
+      box-shadow: 0 5px 15px 0 black;
+      color: white;
+      font-family: calibri;
+    }
+
+    .new1 {
+      position: relative;
+      bottom: 360px;
+      left: 625px;
+      width: 270px;
+      height: 390px;
+      padding: 20px;
+      background-color: #72bed8;
+      text-align: center;
+      border-style: none;
+      border-width: 3px;
+      box-shadow: 0 5px 15px 0 black;
+      color: white;
+      font-family: calibri;
+
+    }
+
+    .new2 {
+      position: relative;
+      bottom: 750px;
+      left: 940px;
+      padding: 20px;
+      width: 270px;
+      height: 390px;
+      background-color: #72bed8;
+      text-align: center;
+      border-style: none;
+      border-width: 3px;
+      box-shadow: 0 5px 15px 0 black;
+      color: white;
+      font-family: calibri;
+
+    }
+
+    .new3 {
+      position: relative;
+      bottom: 680px;
+      left: 300px;
+      padding: 20px;
+      width: 270px;
+      height: 390px;
+      background-color: #72bed8;
+      text-align: center;
+      border-style: none;
+      border-width: 3px;
+      box-shadow: 0 5px 15px 0 black;
+      color: white;
+      font-family: calibri;
+
+    }
+
+    .new4 {
+      position: relative;
+      bottom: 1070px;
+      left: 625px;
+      padding: 20px;
+      width: 270px;
+      height: 390px;
+      background-color: #72bed8;
+      text-align: center;
+      border: 3px none;
+      box-shadow: 0 5px 15px 0 black;
+      color: white;
+      font-family: calibri;
+
+    }
+
+    .wix {
+      position: relative;
+      bottom: 1460px;
+      left: 945px;
+      width: 270px;
+      height: 390px;
+      padding: 20px;
+      background-color: #72bed8;
+      text-align: center;
+      border: 3px none;
+      box-shadow: 0 5px 15px 0 black;
+      color: white;
+      font-family: calibri;
+    
+    }
+
+    #enroll {
+      font-size: 30px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      
+    }
+    #enroll-para{
+        line-height: 1.3;
+        font-size: 15px;
+    }
+
+  
+
+    #experience {
+      text-align: center;
+      font-size: 40px;
+      font-family: calibri;
+      font-weight: bolder;
+    }
+
+
+ 
+    #part3 {
+      width: 260px;
+      height: 300px;
+      margin-left: 200px;
+      margin-top: 100px;
+
+    }
+
+    .section_part3 {
+      background-color: #72bed8;
+
+    }
+
+    .part3 {
+      position: relative;
+      left: 100px;
+    }
+
+    .part4 {
+      position: relative;
+      right: 55px;
+
+    }
+
+    .part5 {
+      position: relative;
+      right: 210px;
+    }
+
+    .part6 {
+      position: relative;
+      left: 100px;
+      bottom: 60px;
+    }
+
+    .part7 {
+      position: relative;
+      right: 55px;
+      bottom: 60px;
+    }
+
+    .part8 {
+      position: relative;
+      left: -210px;
+      bottom: 60px;
+    }
+
+    .part_head {
+      font-size: 35px;
+      color: white;
+      font-family: sans-serif;
+      font-weight: bold;
+      position: relative;
+      top: 30px;
+      left:650px;
+      
+   
+
+    }
+
+    #last_image {
+      width: 310px;
+      height: 280px;
+      margin-top: 40px;
+      margin-left: 300px;
+
+    }
+
+    #paragraph {
+      position: relative;
+      left: 800px;
+      bottom: 290px;
+      font-size: 36px;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+
+    #last_line {
+      position: relative;
+      left: 800px;
+      bottom: 300px;
+      font-size: 30px;
+      font-family: sans-serif;
+    }
+
+    .second_last {
+      height: 350px;
+    }
+  
+    </style>
+</head>
+
+
+
+<body>
+    <header>
+        <img id="face" src="https://tse4.mm.bing.net/th?id=OIP.-CKI96pe0GWvqWFAgi0xygAAAA&pid=Api&P=0&w=300&h=300">
+        <a id="span1" href="mentor.html">Home
+            <a id="span2" href="about.html">About
+                <a id="span3" href="plan.html">Plans
+                    <a id="span4" href="blog.html">Blog
+                        <a id="span5" href="FAQ.html">FAQ
+                            <a id="span6" href="Contact_us.html">Contact us
+                                <a class="main1" href="Become_a_mentor.html">Become a Mentor</a>
+
+    </header>
+    <main>
+        <div id="main">
+          <h1>
+            Become a Mentor,<br>
+            Be a Role Model </h1>
+          <p>Your expertise can become a career<br> booster to students seeking mentorship<br> and career guidance.
+            Let's make<br>
+            mentorship reachable to each and every<br> student out there. Become a Mentor and <br> start your
+            journey with us!
+          </p>
+        </div>
+    
+    
+        <a id="button" href="registration.html">Register Here</a>
+    
+        <img id="image"
+          src="https://static.wixstatic.com/media/fa3b9c_ed4ff84d14094153be5a3a338b00e802~mv2.png/v1/fill/w_549,h_315,al_c,lg_1,q_85/fa3b9c_ed4ff84d14094153be5a3a338b00e802~mv2.webp">
+    
+        <div id="section_part">
+          <p class="heading">How It Works</p>
+          <div class="new">
+            <a href="https://www.wix.com/" target="_blank">
+              <img class="image1"
+                src="https://static.wixstatic.com/media/fa3b9c_55e9ce640b8b4b57bb801f44bcc81b7c~mv2.jpg/v1/fill/w_288,h_260,al_c,q_80,usm_0.66_1.00_0.01/pexels-sevenstorm-juhaszimrus-704767.webp"></a>
+            <p id="enroll"><b>Enroll</b></p>
+            <p id="enroll-para">Complete enrolment via<br> payment of token amount on<br> our website along with certain<br> personal and
+              professional<br> details.</p>
+          </div>
+    
+          <div class="new1">
+            <a href="https://www.wix.com/" target="_blank">
+              <img class="image1"
+                src="https://static.wixstatic.com/media/nsplsh_7665f24257314a1fb81bdbee4c4ed2d2~mv2.jpg/v1/fill/w_288,h_260,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Dylan%20Ferreira.webp"></a>
+            <p id="enroll"><b>
+                Counselling</b></p>
+            <p id="enroll-para">Get counselled by one of our<br> counsellors about your goals <br>and the kind of mentor you <br>are looking
+              for (5 mins)
+            </p>
+          </div>
+          <div class="new2">
+            <a href="https://www.wix.com/" target="_blank">
+              <img class="image1"
+                src="https://static.wixstatic.com/media/nsplsh_50281fba4b8f491bb92b163774032b8e~mv2.jpg/v1/fill/w_288,h_260,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Markus%20Winkler.webp"></a>
+            <p id="enroll"><b>Goal tests</b></p>
+            <p id="enroll-para"> Complete Psychometric tests<br> pertaining to the professional<br> goals set by you to determine<br> whether
+              this would be your <br>best bet.
+    
+            </p>
+          </div>
+          <div class="new3">
+            <a href="https://www.wix.com/" target="_blank">
+              <img class="image1"
+                src="https://static.wixstatic.com/media/nsplsh_b40060319ccf4a17aed60ce4cf873286~mv2.jpg/v1/fill/w_288,h_260,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Blake%20Wisz.webp"></a>
+            <p id="enroll"><b>Register</b></p>
+            <p id="enroll-para">Complete the registration<br> process for further connecting<br> with mentors.</p>
+          </div>
+          <div class="new4">
+            <a href="https://www.wix.com/" target="_blank">
+              <img class="image1"
+                src="https://static.wixstatic.com/media/fa3b9c_0dc5f91ceeb5470583ddaf00f41d1c07~mv2.jpg/v1/crop/x_1083,y_0,w_5786,h_5304/fill/w_288,h_260,al_c,q_80,usm_0.66_1.00_0.01/pexels-mentatdgt-1311518.webp"></a>
+    
+            <p id="enroll"><b>Expert Mentors</b></p>
+            <p id="enroll-para"> Get connected with a star<br> mentor relevant to your profile to<br> discuss your goals, get<br> inputs,
+              structured one-to-one<br> workshops and much more.</p>
+          </div>
+          <div class="wix">
+            <a href="https://www.wix.com/" target="_blank">
+              <img class="image1"
+                src="https://static.wixstatic.com/media/nsplsh_b286ae9105ea4d099c2e39ebf212db10~mv2.jpg/v1/fill/w_288,h_260,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Doran%20Erickson.webp"></a>
+            <p id="enroll"><b>Learn and grow</b></p>
+            <p id="enroll-para">Stay connected with us through<br> our interest-specific<br> communities and grow</p>
+          </div>
+        </div>
+    
+        <p id="experience">Experience</p>
+        <div class="container">
+
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+    
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="https://www.facebook.com/pg/Tipoff_newsletter-102457848142868/posts/">
+                            <img id="frst-image"
+                                src="https://static.wixstatic.com/media/11062b_797ffc41d45f4e9cbc2bfe41212ef760~mv2.jpeg/v1/fill/w_135,h_135,al_c,q_80,usm_0.66_1.00_0.01/University%20Student.webp"></a>
+                        <div class="carousel-caption">
+                            <h3>Rahul Kumar</h3>
+                            <p>
+    
+                                ​​It was utmost helpful and filled me motivation and<br> ideas, it cleared most of the
+                                doubts. I
+                                got to know a lot <br>of things that were unknown to me about future career<br> options.
+                                Overall it
+                                was an amazing and insightful<br> experience.<br>
+    
+                                Thanks, Mentorbox!</p>
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <a href="https://www.facebook.com/pg/Tipoff_newsletter-102457848142868/posts/">
+                            <img id="frst-image"
+                                src="https://static.wixstatic.com/media/7e94950769fd4a8786ed7d29e7c3478b.jpg/v1/fill/w_129,h_128,al_c,q_80,usm_0.66_1.00_0.01/Smiling%20Woman.webp"></a>
+                        <div class="carousel-caption">
+                            <h3>
+                                Aryama Agarwal</h3>
+                            <p>It was an amazing session. I was confused about <br>taking a job after graduation or going
+                                for
+                                higher<br> studies. The mentor gave me an insight into both the<br> options to make me
+                                realise what
+                                is best for me. He<br> also described his experiences so that I can make a <br>decision
+                                based on my
+                                interest. Thanks a <br>lot Mentorbox.</p>
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <a href="https://www.facebook.com/pg/Tipoff_newsletter-102457848142868/posts/">
+                            <img id="frst-image"
+                                src="https://static.wixstatic.com/media/nsplsh_54535a6f313772336d3073~mv2_d_3840_5760_s_4_2.jpg/v1/fill/w_139,h_125,al_c,q_80,usm_0.66_1.00_0.01/Image%20by%20Courtney%20Cook.webp">
+                        </a>
+                        <div class="carousel-caption">
+                            <h3>Varsha Tandan</h3>
+                            <p>What I learned from the session is how to see the<br> same things from different angles which
+                                widens our<br> perspective and gives us a new way to think. The<br> mentorship session was
+                                really
+                                insightful and the <br>mentor answered all my questions briefly. I am glad I <br> registered
+                                for the
+                                mentorship session. </p>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Left and right controls -->
+                <a class=" left carousel-control" href="#carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+    
+                </a>
+                <a class="right carousel-control" href="#carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+    
+                </a>
+            </div>
+        </div>
+    
+    
+    
+        <div class="section_part3">
+          <p class="part_head">
+            Salient Features</p>
+          
+    
+          <div id="section_part3">
+            <img id="part3" class="part3"
+              src="https://static.wixstatic.com/media/fa3b9c_13e57ff890e944ea86fa40e870b5c3fa~mv2.png/v1/fill/w_309,h_403,al_c,q_85,usm_0.66_1.00_0.01/fa3b9c_13e57ff890e944ea86fa40e870b5c3fa~mv2.webp">
+            <img id="part3" class="part4"
+              src="https://static.wixstatic.com/media/fa3b9c_cf9f5d28bc8e4dae84d715f836cc94b9~mv2.png/v1/fill/w_297,h_417,al_c,q_85,usm_0.66_1.00_0.01/fa3b9c_cf9f5d28bc8e4dae84d715f836cc94b9~mv2.webp">
+            <img id="part3" class="part5"
+              src="https://static.wixstatic.com/media/fa3b9c_2d40081e6eed4b8dbf5e97d9c64b1c0a~mv2.png/v1/fill/w_298,h_429,al_c,q_85,usm_0.66_1.00_0.01/fa3b9c_2d40081e6eed4b8dbf5e97d9c64b1c0a~mv2.webp">
+            <img id="part3" class="part6"
+              src="https://static.wixstatic.com/media/fa3b9c_0d35f12a278343629c3c718b6c7e9a7e~mv2.png/v1/fill/w_309,h_434,al_c,q_85,usm_0.66_1.00_0.01/fa3b9c_0d35f12a278343629c3c718b6c7e9a7e~mv2.webp">
+            <img id="part3" class="part7"
+              src="https://static.wixstatic.com/media/fa3b9c_f571c54e33bd4a0ea4ce1036e17f41f1~mv2.png/v1/fill/w_300,h_432,al_c,q_85,usm_0.66_1.00_0.01/fa3b9c_f571c54e33bd4a0ea4ce1036e17f41f1~mv2.webp">
+            <img id="part3" class="part8"
+              src="https://static.wixstatic.com/media/fa3b9c_cf9f5d28bc8e4dae84d715f836cc94b9~mv2.png/v1/fill/w_297,h_417,al_c,q_85,usm_0.66_1.00_0.01/fa3b9c_cf9f5d28bc8e4dae84d715f836cc94b9~mv2.webp">
+          </div>
+        </div>
+    
+        <div class="second_last">
+          <img id="last_image"
+            src="https://static.wixstatic.com/media/30d9cca4ab2c4735a696d1f88a45a719.jpg/v1/fill/w_385,h_385,al_c,q_80,usm_0.66_1.00_0.01/Coming%20Soon%20Neon%20Light.webp">
+          <p id="paragraph">
+            App Coming on<br> Playstore soon...</p>
+          <p id="last_line">Sit Tight Until Then !!!!</p>
+    
+          </p>
+        </div>
+      </main>
+
+
+
+    <footer>
+
+        <p id="us">Follow us on</p>
+        <a href="https://www.quora.com/q/mentorboxindia" target="_blank">
+            <img id="logo"
+                src="https://static.wixstatic.com/media/203317_7534420d810744c0bcfbac6d933f85e1~mv2.png/v1/fill/w_44,h_44,al_c,q_85,usm_0.66_1.00_0.01/203317_7534420d810744c0bcfbac6d933f85e1~mv2.webp">
+        </a>
+        <a href="https://www.facebook.com/boxmentor/" target="_blank">
+            <img id="logo"
+                src="https://tse1.mm.bing.net/th?id=OIP.K61w8tCEKaKN--vUwjeSSwHaHa&pid=Api&P=0&w=300&h=300"></a>
+
+        <a href="https://www.twitter.com/IndiaMentorbox?s=09" target="https://www.twitter.com/IndiaMentorbox?s=09">
+            <img id="logo"
+                src="https://static.wixstatic.com/media/9c4b521dd2404cd5a05ed6115f3a0dc8.png/v1/fill/w_44,h_44,al_c,q_85,usm_0.66_1.00_0.01/9c4b521dd2404cd5a05ed6115f3a0dc8.webp"></a>
+
+        <a href="https://www.youtube.com/channel/UCmxhM-k7uKenebm3gE0I3fA"
+            target="https://www.youtube.com/channel/UCmxhM-k7uKenebm3gE0I3fA">
+            <img id="logo"
+                src="https://static.wixstatic.com/media/a1b09fe8b7f04378a9fe076748ad4a6a.png/v1/fill/w_44,h_44,al_c,q_85,usm_0.66_1.00_0.01/a1b09fe8b7f04378a9fe076748ad4a6a.webp"></a>
+
+        <a href="https://www.instagram.com/mentorbox.in/?igshid=1bcyc392o2p2g"
+            target="https://www.instagram.com/mentorbox.in/?igshid=1bcyc392o2p2g">
+            <img id="logo"
+                src="https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_44,h_44,al_c,q_85,usm_0.66_1.00_0.01/8d6893330740455c96d218258a458aa4.webp"></a>
+
+        <a id="link" href="https://www.linkedin.com/company/mentorbox-in" target="_blank">FOLLOW US ON
+            LINKEDIN</a><br>
+        <a id="email" href="mailto:anapurna@mentorbox.in" target="mailto:anapurna@mentorbox.in">Email us</a>
+
+        <div id="footer1">
+            <a id="about" href="about.html">About us
+                <a id="contact" href="Contact_us.html">Contact us
+                    <a id="payment" href="Payment.html">Payment Terms and
+                        Conditions
+                        <a id="website" href="Payment.html">Website Terms and
+                            Conditions
+                            <a id="privacy" href="Privacy.html">Privacy policy
+                            </a>
+        </div>
+
+
+
+        <p id="foo">@MentorBox India
+        </p>
+    </footer>
+
+</body>
+
+</html>

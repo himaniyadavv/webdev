@@ -4,9 +4,10 @@ body {
     
 }
 
-header {
+nav {
     background-color: #72bed8;
     height: 80px;
+    width:100%;
 
 
 }
@@ -16,113 +17,75 @@ header {
     height: 500px;
 }
 
-#span1 {
+ul{
+    list-style:none;
+    color:white;
 
-    cursor: pointer;
-    margin-right: 24px;
-    font-size: 18px;
+
+}
+
+ul li{
+    display:inline-block;
+    font-size:20px;
     font-family: sans-serif;
     font-weight: bold;
-    padding-left: 300px;
+    margin-right:20px;
     position: relative;
-    bottom: 15px;
+    bottom: 40px;
+         
+
+}
+
+
+
+#span1 {
+    padding-left: 350px;
     text-decoration: none;
-    color: black;
-
-
+    color:black;
 }
 
-#span3:hover {
-    color: black;
-}
-
-#span4:hover {
-    color: black;
-}
-
-#span5:hover {
-    color: black;
-}
-
-#span6:hover {
-    color: black;
-}
 
 #span2 {
     color: white;
-    margin-right: 24px;
     text-decoration: none;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: bold;
-    position: relative;
-    bottom: 15px;
 
 }
-
 #span2:hover {
     color: black;
 }
 
+
+
 #span3 {
-
-
     text-decoration: none;
-    cursor: pointer;
-    margin-right: 24px;
-    font-size: 18px;
-    font-weight: bold;
-    position: relative;
-    bottom: 15px;
     color: white;
-    font-family: sans-serif;
-    font-weight: bold;
+}
+#span3:hover {
+    color: black;
 }
 
 #span4 {
-
-
     text-decoration: none;
-    cursor: pointer;
-    margin-right: 24px;
-    font-size: 18px;
-    font-weight: bold;
-    position: relative;
-    bottom: 15px;
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
+      color:white; 
+}
+#span4:hover {
+    color: black;
 }
 
 #span5 {
-
-
     text-decoration: none;
-    cursor: pointer;
-    margin-right: 24px;
-    font-size: 18px;
-    font-weight: bold;
-    position: relative;
-    bottom: 15px;
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
+    color:white;
+}
+#span5:hover {
+    color: black;
 }
 
 #span6 {
-
-
     text-decoration: none;
-    cursor: pointer;
-    margin-right: 24px;
-    font-size: 18px;
-    font-weight: bold;
-    position: relative;
-    bottom: 15px;
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
+    color:white;
+}
+#span6:hover {
+    color: black;
 }
 
 
@@ -131,12 +94,8 @@ header {
     text-decoration: none;
     padding: 8px 15px;
     border-radius: 9px;
-    font-size: 18px;
-    font-weight: bold;
-    position: relative;
-    bottom: 15px;
     color: #72bed8;
-    font-family: sans-serif;
+    
 
 }
 
@@ -153,15 +112,15 @@ header {
 }
 
 .block {
-    position: absolute;
-    bottom: 250px;
-    left: 300px;
+    position: relative;
+bottom:400px;
+    left: 250px;
     background: rgba(255, 255, 255, .9);
     color: #72bed8;
-    padding: 10px 40px;
-    font-family: 'Franklin Gothic Medium';
+width:360px;
     border-radius: 30px;
     font-size: 15px;
+    padding: 10px 10px;
     text-align: center;
     line-height: 0.5;
     font-family: verdana;
@@ -1041,4 +1000,110 @@ h {
 
 .section_part8 {
     padding: 60px;
+}
+
+
+
+@media(max-width:500px){
+    
+    nav ul li{
+font-size:15px;
+    width:100vw;
+    position:relative;
+    left:60px;
+  
+}
+
+
+#span1{
+    position:relative;
+    left:-380px;
+ top:12px;
+}
+#span2{
+    position:relative;
+    left:17px;
+ top:-6px;
+}
+#span3{
+    position:relative;
+    left:65px;
+    bottom:24px;
+}
+#span4{
+    position:relative;
+    left:110px;
+ bottom:42px;
+}
+#span5{
+    position:relative;
+    left:147px;
+ top:-59px;
+}
+#span6{
+    position:relative;
+    left:180px;
+ top:-77px;
+}
+.main1{
+    position:relative;
+    left:190px;
+ top:-90px;
+ padding:5px 5px;
+ width:20px;
+}
+
+
+#cont {
+
+    height: 220px;
+}
+
+#div1 {
+    margin: 10px 20px;
+    height: 200px;
+
+    
+}
+
+ .block {
+   position: absolute;
+   left:100px;
+   padding: 5px 5px;
+
+ width:200px;
+ line-height:0px;
+    font-size: 10px;
+
+} 
+  .block h1 center{
+      font-size:15px;
+      margin-bottom:10px;
+  } 
+
+ #face {
+    width: 40px;
+    height: 36px;
+    margin-right: 0;
+    position: relative;
+    left:25px;
+    top: 20px;
+}
+
+#collab {
+
+    font-size: 17px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    height: 50px;
+
+}
+#ancer{
+    color:black;
+    font-size:15px;
+    position:relative;
+    left:250px;
+    top:-39px;
+}
 }
